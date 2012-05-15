@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74200899155D55C90048A587 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74200898155D55C90048A587 /* Cocoa.framework */; };
+		742008A3155D55C90048A587 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 742008A1155D55C90048A587 /* InfoPlist.strings */; };
+		742008A5155D55C90048A587 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 742008A4155D55C90048A587 /* main.m */; };
+		742008A9155D55C90048A587 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 742008A7155D55C90048A587 /* Credits.rtf */; };
+		742008AC155D55CA0048A587 /* DKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 742008AB155D55CA0048A587 /* DKAppDelegate.m */; };
+		742008AF155D55CA0048A587 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 742008AD155D55CA0048A587 /* MainMenu.xib */; };
+		742008C1155D62900048A587 /* URLStringTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 742008C0155D62900048A587 /* URLStringTransformer.m */; };
+		742008C4155D723F0048A587 /* NSArray+StringElementsAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 742008C3155D723F0048A587 /* NSArray+StringElementsAdditions.m */; };
+		748E3BEE15628E580030033B /* WallnutEater.icns in Resources */ = {isa = PBXBuildFile; fileRef = 748E3BED15628E570030033B /* WallnutEater.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74200894155D55C90048A587 /* Wallnut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallnut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74200898155D55C90048A587 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7420089B155D55C90048A587 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7420089C155D55C90048A587 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7420089D155D55C90048A587 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		742008A0155D55C90048A587 /* Wallnut-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wallnut-Info.plist"; sourceTree = "<group>"; };
+		742008A2155D55C90048A587 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		742008A4155D55C90048A587 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		742008A6155D55C90048A587 /* Wallnut-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wallnut-Prefix.pch"; sourceTree = "<group>"; };
+		742008A8155D55C90048A587 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		742008AA155D55CA0048A587 /* DKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKAppDelegate.h; sourceTree = "<group>"; };
+		742008AB155D55CA0048A587 /* DKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKAppDelegate.m; sourceTree = "<group>"; };
+		742008AE155D55CA0048A587 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		742008BF155D62900048A587 /* URLStringTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLStringTransformer.h; sourceTree = "<group>"; };
+		742008C0155D62900048A587 /* URLStringTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLStringTransformer.m; sourceTree = "<group>"; };
+		742008C2155D723F0048A587 /* NSArray+StringElementsAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+StringElementsAdditions.h"; sourceTree = "<group>"; };
+		742008C3155D723F0048A587 /* NSArray+StringElementsAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+StringElementsAdditions.m"; sourceTree = "<group>"; };
+		748E3BED15628E570030033B /* WallnutEater.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = WallnutEater.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74200891155D55C90048A587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74200899155D55C90048A587 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74200889155D55C90048A587 = {
+			isa = PBXGroup;
+			children = (
+				748E3BED15628E570030033B /* WallnutEater.icns */,
+				7420089E155D55C90048A587 /* Wallnut */,
+				74200897155D55C90048A587 /* Frameworks */,
+				74200895155D55C90048A587 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74200895155D55C90048A587 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74200894155D55C90048A587 /* Wallnut.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74200897155D55C90048A587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74200898155D55C90048A587 /* Cocoa.framework */,
+				7420089A155D55C90048A587 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7420089A155D55C90048A587 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7420089B155D55C90048A587 /* AppKit.framework */,
+				7420089C155D55C90048A587 /* CoreData.framework */,
+				7420089D155D55C90048A587 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7420089E155D55C90048A587 /* Wallnut */ = {
+			isa = PBXGroup;
+			children = (
+				742008AA155D55CA0048A587 /* DKAppDelegate.h */,
+				742008AB155D55CA0048A587 /* DKAppDelegate.m */,
+				742008AD155D55CA0048A587 /* MainMenu.xib */,
+				7420089F155D55C90048A587 /* Supporting Files */,
+				742008BF155D62900048A587 /* URLStringTransformer.h */,
+				742008C0155D62900048A587 /* URLStringTransformer.m */,
+				742008C2155D723F0048A587 /* NSArray+StringElementsAdditions.h */,
+				742008C3155D723F0048A587 /* NSArray+StringElementsAdditions.m */,
+			);
+			path = Wallnut;
+			sourceTree = "<group>";
+		};
+		7420089F155D55C90048A587 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				742008A0155D55C90048A587 /* Wallnut-Info.plist */,
+				742008A1155D55C90048A587 /* InfoPlist.strings */,
+				742008A4155D55C90048A587 /* main.m */,
+				742008A6155D55C90048A587 /* Wallnut-Prefix.pch */,
+				742008A7155D55C90048A587 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74200893155D55C90048A587 /* Wallnut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 742008B2155D55CA0048A587 /* Build configuration list for PBXNativeTarget "Wallnut" */;
+			buildPhases = (
+				74200890155D55C90048A587 /* Sources */,
+				74200891155D55C90048A587 /* Frameworks */,
+				74200892155D55C90048A587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wallnut;
+			productName = Wallnut;
+			productReference = 74200894155D55C90048A587 /* Wallnut.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7420088B155D55C90048A587 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7420088E155D55C90048A587 /* Build configuration list for PBXProject "Wallnut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 74200889155D55C90048A587;
+			productRefGroup = 74200895155D55C90048A587 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74200893155D55C90048A587 /* Wallnut */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74200892155D55C90048A587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742008A3155D55C90048A587 /* InfoPlist.strings in Resources */,
+				742008A9155D55C90048A587 /* Credits.rtf in Resources */,
+				742008AF155D55CA0048A587 /* MainMenu.xib in Resources */,
+				748E3BEE15628E580030033B /* WallnutEater.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74200890155D55C90048A587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742008A5155D55C90048A587 /* main.m in Sources */,
+				742008AC155D55CA0048A587 /* DKAppDelegate.m in Sources */,
+				742008C1155D62900048A587 /* URLStringTransformer.m in Sources */,
+				742008C4155D723F0048A587 /* NSArray+StringElementsAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		742008A1155D55C90048A587 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				742008A2155D55C90048A587 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		742008A7155D55C90048A587 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				742008A8155D55C90048A587 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		742008AD155D55CA0048A587 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				742008AE155D55CA0048A587 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		742008B0155D55CA0048A587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		742008B1155D55CA0048A587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		742008B3155D55CA0048A587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wallnut/Wallnut-Prefix.pch";
+				INFOPLIST_FILE = "Wallnut/Wallnut-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		742008B4155D55CA0048A587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wallnut/Wallnut-Prefix.pch";
+				INFOPLIST_FILE = "Wallnut/Wallnut-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7420088E155D55C90048A587 /* Build configuration list for PBXProject "Wallnut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742008B0155D55CA0048A587 /* Debug */,
+				742008B1155D55CA0048A587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		742008B2155D55CA0048A587 /* Build configuration list for PBXNativeTarget "Wallnut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742008B3155D55CA0048A587 /* Debug */,
+				742008B4155D55CA0048A587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7420088B155D55C90048A587 /* Project object */;
+}
