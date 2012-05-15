@@ -1,4 +1,4 @@
-Wallnut is a simple application which is used to change desktop image of your Mac OS X machine.
+Wallnut is a simple application which is used to change desktop image on your Mac OS X machine.
 
 To change desktop image you can do two things:
 
