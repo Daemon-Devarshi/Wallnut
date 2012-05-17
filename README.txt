@@ -1,8 +1,8 @@
 Wallnut is a simple application which is used to change desktop image on your Mac OS X machine.
 
-To change desktop image you can do two things:
+To change desktop image you can do any of the two things:
 
-1. Drag and drop an image on its dock icon.
+1. Drag and drop an image on its dock icon, or
 
 2. Drag and drop a folder containing images on its dock icon. 
 
@@ -21,4 +21,3 @@ The image types supported currently are:
 1. jpeg
 2. png
 3. jpg
-
