@@ -69,9 +69,10 @@
     else if ([keyPath isEqualToString:@"currentDesktopImageURL"] && [object isEqual:self]) 
     {
         NSError *error = nil;
+        NSDictionary *optionsDictionary = @{NSWorkspaceDesktopImageScalingKey : @2, NSWorkspaceDesktopImageFillColorKey : [NSColor blackColor]};
         [[NSWorkspace sharedWorkspace] setDesktopImageURL:[change objectForKey:NSKeyValueChangeNewKey] 
                                                 forScreen:[NSScreen mainScreen] 
-                                                  options:nil 
+                                                  options:optionsDictionary 
                                                     error:&error];
     }
     else if ([keyPath isEqualToString:@"imageChangeInterval"] && [object isEqual:[NSUserDefaults standardUserDefaults]]) 
