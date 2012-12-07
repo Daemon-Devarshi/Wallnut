@@ -7,9 +7,6 @@
 //
 
 #import "NSArray+StringElementsAdditions.h"
-@interface NSArray ()
-- (NSArray *)mapEachElementUsingBlock:(NSString *(^)(NSString *))aBlock;
-@end
 
 @implementation NSArray (StringElementsAdditions)
 - (NSArray *)addPrefix:(NSString *)aPrefix
